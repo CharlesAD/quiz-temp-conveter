@@ -1,4 +1,4 @@
-import { tryConvert } from "./index.js";
+import { tryConvert, celsius, fahrenheit } from "./index.js";
 
 describe("testing temperature functions", () => {
   test("testing to see if function correctly converts temperatures", () => {
