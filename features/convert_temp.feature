@@ -1,14 +1,3 @@
-# Temperature Converter QA Testing Example/Quiz
-
-## User Stories and Scenario Outline
-
-As part of the Agile meeting, some project requirements would have been discussed.
-
-Separately, in a "3 Amigos" meeting, specific user stories/scenarios would have been formulated.
-
-We can then use Gherkin to outline the scenarios and prepare for QA testing.
-
-```gherkin
 Feature: Convert Temperatures
 
     We convert temperatures between Celsius and Fahrenheit.
@@ -26,10 +15,9 @@ Feature: Convert Temperatures
   Scenario: Convert to Celsius with non-numerical input
     Given I have non-numerical input
     When I convert it to degrees Celsius
-    Then I "see" a blank string
+    Then I see a blank string
 
   Scenario: Convert to Fahrenheit with non-numerical input
     Given I have non-numerical input
     When I convert it to degrees Fahrenheit
-    Then I "see" a blank string
-```
+    Then I see a blank string
